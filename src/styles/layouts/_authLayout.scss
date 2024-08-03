@@ -1,0 +1,12 @@
+#authLayouts {
+    @apply relative flex flex-col h-auto min-h-screen bg-[#C4CFDB];
+    header#authHeader {
+        @apply w-full h-16 flex justify-start items-center p-10;
+    }
+    main#mainAuthLayouts {
+        @apply flex-1 w-full h-auto p-10 flex justify-center items-center; 
+    }
+    div#authBottomHelper {
+        @apply w-full h-16 flex justify-end items-center p-10;
+    }
+}

@@ -1,0 +1,10 @@
+#sideLayouts {
+    @apply relative flex flex-row h-auto min-h-screen;
+    div#sideNavigation {
+        @apply max-w-[350px] min-h-screen w-full h-16 bg-white flex flex-col justify-start items-start p-5 gap-5 border-r border-[#CBD5E1];
+    }
+
+    main#mainSideLayouts {
+        @apply flex-1 w-full h-auto min-h-screen; 
+    }
+}
