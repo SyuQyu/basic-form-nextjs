@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic"
+import { Toaster } from "@/components/ui/toaster"
 
 const Header = dynamic(() => import("@/components/layouts/authLayout/header"))
 export default function AuthLayout({
@@ -7,11 +8,12 @@ export default function AuthLayout({
   children: React.ReactNode
 }>) {
   return (
-    <div id="authLayouts">
+    <body id="authLayouts">
       <Header />
       <main id="mainAuthLayouts">
         {children}
       </main>
-    </div>
+      <Toaster />
+    </body>
   )
 }

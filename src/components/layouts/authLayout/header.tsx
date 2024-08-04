@@ -11,11 +11,11 @@ export default function Header() {
           sizes="10vw"
           className="w-6 object-contain"
           priority={true}
-          src="/images/logo.png"
+          src="/images/logo.jpg"
           // fallbackSrc="/images/Logo.png"
           alt="Logo"
         />
-        <p className="font-normal text-base">Trauma & Empathy</p>
+        <p className="font-normal text-base">Basic Form</p>
       </Link>
     </header>
   )
