@@ -57,7 +57,6 @@ export default function InputCustom({
           name={name}
           onChange={onChange}
           onBlur={(e) => {
-            // eslint-disable-next-line ts/no-unused-expressions
             onBlur && onBlur(e)
             setIsFocused(false)
           }}
